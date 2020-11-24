@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap");
+
+/* tik mark */
+/* 
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-times-circle"></i> */
+
+/* css reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #302e2e;
+}
+.email-validation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 25px;
+  color: #f2f2f2;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#form #email {
+  position: relative;
+  width: 500px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 5px 10px;
+  background-color: #0a0a0a;
+  color: #f2f2f2;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-style: normal;
+  border-radius: 5px;
+  z-index: 1;
+}
+#form.valid::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 50%;
+  left: 72%;
+  transform: translate(-72%, -60%);
+  width: 24px;
+  height: 24px;
+  background: url("https://icon2.cleanpng.com/20171221/jle/green-hook-mark-5a3b7faf8d7679.1762311815138487515794.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 100;
+}
+#form.invalid::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 72%;
+  right: 80%;
+  transform: translate(-72%, 0%);
+  width: 24px;
+  height: 24px;
+  background: url("https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-wrong-false-icon-design-template-vector-isolated-png-image_711426.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 100;
+}
+#form.warn::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 72%;
+  transform: translate(-72%, -55%);
+  width: 24px;
+  height: 24px;
+  background: url("https://png.pngtree.com/png-clipart/20200805/ourmid/pngtree-red-border-on-yellow-triangle-and-black-exclamation-mark-warning-sign-png-image_2316999.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 100;
+}
+#form #text {
+  display: block;
+  font-size: 20px;
+  font-style: italic;
+  color: #f2f2f2;
+  font-weight: 500;
+  margin: 10px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky|Nav_Bar</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <ul class="navBar">
+        <li><a href="#" class="nav_link">Home</a></li>
+        <li><a href="#" class="nav_link">About</a></li>
+        <li><a href="#" class="nav_link">Services</a></li>
+        <li><a href="#" class="nav_link">Team</a></li>
+        <li><a href="#" class="nav_link">Book A table</a></li>
+        <li><a href="#" class="nav_link">Contact</a></li>
+      </ul>
+    </header>
+    <section class="container">
+      <h2>Book a table</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        numquam sit suscipit error quia fuga iure fugiat amet. Asperiores
+        accusamus a ipsa, perspiciatis beatae repudiandae laudantium unde. Ullam
+        ipsa, impedit quae, beatae asperiores, nam odit libero dignissimos
+        ducimus excepturi nihil modi maiores corporis tempore eos a repellendus
+        accusantium. Repudiandae, deserunt.lorem50 Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Voluptatibus, quo culpa ipsa repellat id
+        rem saepe atque omnis architecto ad placeat accusantium! Sapiente, ab
+        odio eius harum repellendus neque at eligendi repellat, beatae numquam
+        aut nobis explicabo natus nesciunt voluptatum possimus libero, error
+        officiis ex ipsam vitae asperiores necessitatibus. Laborum! Lorem, ipsum
+        dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae
+        nihil nulla sint excepturi id ullam iste non natus, sunt doloremque,
+        maxime, expedita distinctio provident. Debitis rerum modi suscipit
+        soluta sit eos facilis iusto nihil, labore repellat, ab laudantium autem
+        sunt nemo cum adipisci! Quaerat ab inventore enim necessitatibus quos.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+        animi? Ratione laudantium expedita fugit facere, quidem dolore aut
+        maxime, ducimus obcaecati, magnam dicta nisi quibusdam. Aperiam, quia
+        perspiciatis aliquam qui asperiores velit sequi nam et quam aliquid ad
+        reprehenderit quod incidunt aspernatur quidem modi culpa minus
+        recusandae vitae natus. Aliquam!
+      </p>
+    </section>
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        // console.log(header);
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>

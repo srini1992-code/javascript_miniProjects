@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404|Page not Found</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>404</h2>
+        <h4>oops!Page not found</h4>
+        <p>
+          The page you are looking for doesn't exists,You must have mistyped the
+          address or the adress of the page have moved!!
+        </p>
+        <a href="#">Back to home</a>
+      </div>
+    </div>
+    <script>
+      var container = document.querySelector('.container');
+      window.onmousemove = function (e) {
+        var x = -e.clientX / 5;
+        console.log(x);
+        var y = -e.clientY / 5;
+        console.log(y);
+        container.style.backgroundPositionX = x + 'px';
+        container.style.backgroundPositionY = y + 'px';
+      };
+    </script>
+  </body>
+</html>

@@ -1,19 +1,11 @@
 # javascript_miniProjects
-In this repo, contains mini projects with its link
+In this repo, contains mini projects built using HTML,CSS,JS
 
-1.Email validation
-  Email generated checks with the regexp pattern while typing email with 3 use cases,Valid,Invalid and Warn based on user typed email.
-  
-   
-2. Sticky Nav_bar
-  A food header page with Sticky nav bar and when scrolling the nav bar changes from fixed to sticky.
-  
+1.Email validation   
+2. Sticky Nav_bar  
 3.pubgy Fun with Bullet sound
-  used Dom elements on  an click event over the screen -theres a bullet shot-to create a hole used a span when an event is happened.
-4. 404 page found 
-  simple page whcih rolls opposite to position of mousemove.i used "onmousemove" and calculated the coordinates of x,yof mouse and positioned the background
- 5.Random Quote Generator
-    a ismple random quote built using js,used dom elements.for every click of button a rando quote is generated
-  
+4. 404 page found
+5.Random Quote Generator
+   
   
  

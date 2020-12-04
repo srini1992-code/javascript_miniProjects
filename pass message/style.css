@@ -1,0 +1,74 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 105, 105, 0.486);
+}
+.container {
+  width: 800px;
+  height: 550px;
+  background: rgba(0, 0, 0, 0.199);
+  text-align: center;
+}
+.banner {
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #f3400e;
+  margin: 25px 0 50px 0;
+  font-weight: 900;
+}
+.message {
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.521);
+  width: 75%;
+  height: 150px;
+  margin: 40px auto;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+#text {
+  font-size: 30px;
+  padding: 20px 20px;
+  width: 75%;
+  height: auto;
+  margin: 25px auto;
+  border: 2px solid rgba(100, 100, 241, 0.63);
+  outline: none;
+}
+.btn__container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 0 20px; */
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #f15025;
+  background-color: #191716;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #f15025;
+  color: #191716;
+  font-weight: 900;
+  /* font-size: 20px; */
+  transform: scale(1.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.199);
+}

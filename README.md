@@ -6,6 +6,7 @@ In this repo, contains mini projects built using HTML,CSS,JS
 3.pubgy Fun with Bullet sound
 4. 404 page found
 5.Random Quote Generator
+6.calculator
    
   
  
